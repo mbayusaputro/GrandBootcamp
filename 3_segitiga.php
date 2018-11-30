@@ -1,0 +1,11 @@
+<?php
+function segitigaAsli($n) {
+	for($i=1; $i<=$n; $i++) {
+		for($j=1; $j<=$i; $j++) {
+			echo $j.', &nbsp;';
+		}
+		echo "<br>";
+	}
+}
+segitigaAsli(7);
+?>
